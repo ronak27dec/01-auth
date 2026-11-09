@@ -1,0 +1,32 @@
+{
+    "name": "01-auth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "debug": "nodemon --inspect server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ronak27dec/01-auth.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/ronak27dec/01-auth/issues"
+    },
+    "homepage": "https://github.com/ronak27dec/01-auth#readme",
+    "dependencies": {
+        "dotenv": "^18.0.8",
+        "express": "^5.3.0",
+        "jsonwebtoken": "^9.0.3",
+        "mongoose": "^9.11.2",
+        "morgan": "^1.12.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}
